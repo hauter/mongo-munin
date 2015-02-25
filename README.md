@@ -64,4 +64,4 @@ Configuration
 
 Notes
 -----------
-* btree has bugs
+* btree does not work in some envirnment
