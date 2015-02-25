@@ -48,7 +48,9 @@ Test plugin output:
 
 Configuration
 -------
+
 **Edit munin-node**
+
     sudo vim /etc/munin/plugin-conf.d/munin-nodeo
 
     add:
