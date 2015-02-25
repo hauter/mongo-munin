@@ -19,6 +19,7 @@ def getServerStatus():
         c.admin.authenticate(user, password)
     return c.admin.command('serverStatus', workingSet=True)
 
+
 name = "locked"
 
 def doData():

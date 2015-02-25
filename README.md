@@ -46,6 +46,20 @@ Test plugin output:
 
     munin-run mongo_ops
 
+Configuration
+-------
+**Edit munin-node**
+    sudo vim /etc/munin/plugin-conf.d/munin-nodeo
+
+    add:
+
+    [mongo_*]
+    env.MONGO_HOST <host>
+    env.MONGO_PORT <port>
+    env.MONGO_USER <user>
+    env.MONGO_PASSWORD <password>
+
+
 Notes
 -----------
-* Authentication needs to be re-added
+* btree has bugs
