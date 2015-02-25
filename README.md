@@ -51,7 +51,7 @@ Configuration
 
 **Edit munin-node**
 
-    sudo vim /etc/munin/plugin-conf.d/munin-nodeo
+    sudo vim /etc/munin/plugin-conf.d/munin-node
 
     add:
 
